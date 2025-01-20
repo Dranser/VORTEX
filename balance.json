@@ -25,8 +25,8 @@
       "rearDownforce": 77
     },
     "arcade_gear_rwd_rearengine": {
-      "frontDownforce": 80,
-      "rearDownforce": 75
+      "frontDownforce": 49,
+      "rearDownforce": 91
     }
   }
 }
