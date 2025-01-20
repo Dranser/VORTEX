@@ -1,32 +1,32 @@
 {
   "values": {
     "ultimate_gear_rwd_frontengine": {
-      "frontDownforce": 5,
-      "rearDownforce": 10
+      "frontDownforce": 7,
+      "rearDownforce": 12
     },
     "arcade_gear_awd_frontengine": {
-      "frontDownforce": 70,
-      "rearDownforce": 70
+      "frontDownforce": 68,
+      "rearDownforce": 74
     },
     "arcade_gear_awd_rearengine": {
-      "frontDownforce": 56,
-      "rearDownforce": 84
+      "frontDownforce": 73,
+      "rearDownforce": 81
     },
     "arcade_gear_4wd_frontengine": {
-      "frontDownforce": 80,
+      "frontDownforce": 78,
       "rearDownforce": 70
     },
     "arcade_gear_rwd_frontengine": {
-      "frontDownforce": 56,
-      "rearDownforce": 84
+      "frontDownforce": 71,
+      "rearDownforce": 82
     },
     "arcade_gear_rwd_midengine": {
-      "frontDownforce": 63,
-      "rearDownforce": 77
+      "frontDownforce": 68,
+      "rearDownforce": 76
     },
     "arcade_gear_rwd_rearengine": {
-      "frontDownforce": 70,
-      "rearDownforce": 80
+      "frontDownforce": 74,
+      "rearDownforce": 83
     }
   }
 }
