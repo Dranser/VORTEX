@@ -8,6 +8,10 @@
       "frontDownforce": 76,
       "rearDownforce": 84
     },
+    "arcade_gear_awd_midengine": {
+      "frontDownforce": 76,
+      "rearDownforce": 84
+    },
     "arcade_gear_awd_rearengine": {
       "frontDownforce": 76,
       "rearDownforce": 84
