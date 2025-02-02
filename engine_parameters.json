@@ -1,0 +1,18 @@
+{
+  "Turing": {
+    "engineIdleRPM": 1000,
+    "engineTurboCharged": false,
+    "engineRevLimiter": 7800,
+    "engineMaxTorque": 200,
+    "engineMaxTorqueRPM": 4600,
+    "referenceWeight": 945
+  },
+  "GT": {
+    "engineIdleRPM": 1200,
+    "engineTurboCharged": false,
+    "engineRevLimiter": 8200,
+    "engineMaxTorque": 400,
+    "engineMaxTorqueRPM": 5200,
+    "referenceWeight": 909
+  }
+}
