@@ -11,7 +11,7 @@
     "engineIdleRPM": 1200,
     "engineTurboCharged": 0,
     "engineRevLimiter": 8200,
-    "engineMaxTorque": 440,
+    "engineMaxTorque": 460,
     "engineMaxTorqueRPM": 6000,
     "referenceWeight": 909
   }
