@@ -4,7 +4,7 @@
     "engineTurboCharged": 0,
     "engineRevLimiter": 7800,
     "engineMaxTorque": 200,
-    "engineMaxTorqueRPM": 4600,
+    "engineMaxTorqueRPM": 5200,
     "referenceWeight": 945
   },
   "GT": {
@@ -12,7 +12,7 @@
     "engineTurboCharged": 0,
     "engineRevLimiter": 8200,
     "engineMaxTorque": 400,
-    "engineMaxTorqueRPM": 5200,
+    "engineMaxTorqueRPM": 6000,
     "referenceWeight": 909
   }
 }
