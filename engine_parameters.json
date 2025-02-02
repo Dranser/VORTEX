@@ -1,7 +1,7 @@
 {
   "Turing": {
     "engineIdleRPM": 1000,
-    "engineTurboCharged": false,
+    "engineTurboCharged": 0,
     "engineRevLimiter": 7800,
     "engineMaxTorque": 200,
     "engineMaxTorqueRPM": 4600,
@@ -9,7 +9,7 @@
   },
   "GT": {
     "engineIdleRPM": 1200,
-    "engineTurboCharged": false,
+    "engineTurboCharged": 0,
     "engineRevLimiter": 8200,
     "engineMaxTorque": 400,
     "engineMaxTorqueRPM": 5200,
