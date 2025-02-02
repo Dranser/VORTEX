@@ -1,8 +1,8 @@
 {
   "values": {
     "ultimate_gear_rwd_frontengine": {
-      "frontDownforce": 7,
-      "rearDownforce": 12
+      "frontDownforce": 6,
+      "rearDownforce": 14
     },
     "arcade_gear_awd_frontengine": {
       "frontDownforce": 76,
