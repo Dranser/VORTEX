@@ -115,9 +115,9 @@
       "engineTurboCharged": 1,
       "engineRevLimiter": 8200,
       "engineMaxTorque": 300,
-      "engineMaxTorqueRPM": 4400,
+      "engineMaxTorqueRPM": 4600,
       "referenceWeight": 950,
-      "engineTurboPressure": 0.4
+      "engineTurboPressure": 0.6
     },
     "aero": {
       "ultimate_gear_rwd_frontengine": {
