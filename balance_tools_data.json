@@ -113,7 +113,7 @@
     "engine": {
       "engineIdleRPM": 1000,
       "engineTurboCharged": 1,
-      "engineRevLimiter": 8200,
+      "engineRevLimiter": 8400,
       "engineMaxTorque": 300,
       "engineMaxTorqueRPM": 4600,
       "referenceWeight": 950,
@@ -132,7 +132,7 @@
     "engine": {
       "engineIdleRPM": 1200,
       "engineTurboCharged": 1,
-      "engineRevLimiter": 8600,
+      "engineRevLimiter": 9000,
       "engineMaxTorque": 300,
       "engineMaxTorqueRPM": 4800,
       "referenceWeight": 950,
