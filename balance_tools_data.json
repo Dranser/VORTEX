@@ -1,114 +1,150 @@
 {
-    "Turing": {
-        "engine": {
-            "engineIdleRPM": 1000,
-            "engineTurboCharged": 0,
-            "engineRevLimiter": 7800,
-            "engineMaxTorque": 260,
-            "engineMaxTorqueRPM": 5200,
-            "referenceWeight": 945
-        },
-        "aero": {
-            "arcade_gear_awd_frontengine": {
-                "frontDownforce": 76,
-                "rearDownforce": 84
-            },
-            "arcade_gear_awd_midengine": {
-                "frontDownforce": 76,
-                "rearDownforce": 84
-            },
-            "arcade_gear_awd_rearengine": {
-                "frontDownforce": 76,
-                "rearDownforce": 84
-            },
-            "arcade_gear_4wd_frontengine": {
-                "frontDownforce": 84,
-                "rearDownforce": 76
-            },
-            "arcade_gear_rwd_frontengine": {
-                "frontDownforce": 78,
-                "rearDownforce": 84
-            },
-            "arcade_gear_rwd_midengine": {
-                "frontDownforce": 76,
-                "rearDownforce": 84
-            },
-            "arcade_gear_rwd_rearengine": {
-                "frontDownforce": 76,
-                "rearDownforce": 84
-            }
-        }
+  "Turing": {
+    "engine": {
+      "engineIdleRPM": 1000,
+      "engineTurboCharged": 0,
+      "engineRevLimiter": 7800,
+      "engineMaxTorque": 260,
+      "engineMaxTorqueRPM": 5200,
+      "referenceWeight": 945,
+      "engineTurboPressure": 0
     },
-    "GT": {
-        "engine": {
-            "engineIdleRPM": 1200,
-            "engineTurboCharged": 0,
-            "engineRevLimiter": 8200,
-            "engineMaxTorque": 420,
-            "engineMaxTorqueRPM": 6000,
-            "referenceWeight": 909
-        },
-        "aero": {
-            "arcade_gear_awd_frontengine": {
-                "frontDownforce": 76,
-                "rearDownforce": 84
-            },
-            "arcade_gear_awd_midengine": {
-                "frontDownforce": 76,
-                "rearDownforce": 84
-            },
-            "arcade_gear_awd_rearengine": {
-                "frontDownforce": 76,
-                "rearDownforce": 84
-            },
-            "arcade_gear_4wd_frontengine": {
-                "frontDownforce": 84,
-                "rearDownforce": 76
-            },
-            "arcade_gear_rwd_frontengine": {
-                "frontDownforce": 78,
-                "rearDownforce": 84
-            },
-            "arcade_gear_rwd_midengine": {
-                "frontDownforce": 76,
-                "rearDownforce": 84
-            },
-            "arcade_gear_rwd_rearengine": {
-                "frontDownforce": 76,
-                "rearDownforce": 84
-            }
-        }
-    },
-    "Drift": {
-        "engine": {
-            "engineIdleRPM": 1000,
-            "engineTurboCharged": 1,
-            "engineRevLimiter": 8200,
-            "engineMaxTorque": 200,
-            "engineMaxTorqueRPM": 4400,
-            "referenceWeight": 950
-        },
-        "aero": {
-            "ultimate_gear_rwd_frontengine": {
-                "frontDownforce": 6,
-                "rearDownforce": 14
-            }
-        }
-    },
-    "ProDrift": {
-        "engine": {
-            "engineIdleRPM": 1200,
-            "engineTurboCharged": 1,
-            "engineRevLimiter": 8600,
-            "engineMaxTorque": 300,
-            "engineMaxTorqueRPM": 4800,
-            "referenceWeight": 950
-        },
-        "aero": {
-            "ultimate_gear_rwd_frontengine": {
-                "frontDownforce": 6,
-                "rearDownforce": 14
-            }
-        }
+    "aero": {
+      "arcade_gear_awd_frontengine": {
+        "frontDownforce": 76,
+        "rearDownforce": 84,
+        "cx": 0.33,
+        "sx": 0.73
+      },
+      "arcade_gear_awd_midengine": {
+        "frontDownforce": 76,
+        "rearDownforce": 84,
+        "cx": 0.33,
+        "sx": 0.73
+      },
+      "arcade_gear_awd_rearengine": {
+        "frontDownforce": 76,
+        "rearDownforce": 84,
+        "cx": 0.33,
+        "sx": 0.73
+      },
+      "arcade_gear_4wd_frontengine": {
+        "frontDownforce": 84,
+        "rearDownforce": 76,
+        "cx": 0.33,
+        "sx": 0.73
+      },
+      "arcade_gear_rwd_frontengine": {
+        "frontDownforce": 78,
+        "rearDownforce": 84,
+        "cx": 0.33,
+        "sx": 0.73
+      },
+      "arcade_gear_rwd_midengine": {
+        "frontDownforce": 76,
+        "rearDownforce": 84,
+        "cx": 0.33,
+        "sx": 0.73
+      },
+      "arcade_gear_rwd_rearengine": {
+        "frontDownforce": 76,
+        "rearDownforce": 84,
+        "cx": 0.33,
+        "sx": 0.73
+      }
     }
+  },
+  "GT": {
+    "engine": {
+      "engineIdleRPM": 1200,
+      "engineTurboCharged": 0,
+      "engineRevLimiter": 8200,
+      "engineMaxTorque": 420,
+      "engineMaxTorqueRPM": 6000,
+      "referenceWeight": 909,
+      "engineTurboPressure": 0
+    },
+    "aero": {
+      "arcade_gear_awd_frontengine": {
+        "frontDownforce": 76,
+        "rearDownforce": 84,
+        "cx": 0.29,
+        "sx": 0.58
+      },
+      "arcade_gear_awd_midengine": {
+        "frontDownforce": 76,
+        "rearDownforce": 84,
+        "cx": 0.29,
+        "sx": 0.58
+      },
+      "arcade_gear_awd_rearengine": {
+        "frontDownforce": 76,
+        "rearDownforce": 84,
+        "cx": 0.29,
+        "sx": 0.58
+      },
+      "arcade_gear_4wd_frontengine": {
+        "frontDownforce": 84,
+        "rearDownforce": 76,
+        "cx": 0.29,
+        "sx": 0.58
+      },
+      "arcade_gear_rwd_frontengine": {
+        "frontDownforce": 78,
+        "rearDownforce": 84,
+        "cx": 0.29,
+        "sx": 0.58
+      },
+      "arcade_gear_rwd_midengine": {
+        "frontDownforce": 76,
+        "rearDownforce": 84,
+        "cx": 0.29,
+        "sx": 0.58
+      },
+      "arcade_gear_rwd_rearengine": {
+        "frontDownforce": 76,
+        "rearDownforce": 84,
+        "cx": 0.29,
+        "sx": 0.58
+      }
+    }
+  },
+  "Drift": {
+    "engine": {
+      "engineIdleRPM": 1000,
+      "engineTurboCharged": 1,
+      "engineRevLimiter": 8200,
+      "engineMaxTorque": 200,
+      "engineMaxTorqueRPM": 4400,
+      "referenceWeight": 950,
+      "engineTurboPressure": 0.4
+    },
+    "aero": {
+      "ultimate_gear_rwd_frontengine": {
+        "frontDownforce": 6,
+        "rearDownforce": 14,
+        "cx": 0.33,
+        "sx": 0.73
+      }
+    }
+  },
+  "ProDrift": {
+    "engine": {
+      "engineIdleRPM": 1200,
+      "engineTurboCharged": 1,
+      "engineRevLimiter": 8600,
+      "engineMaxTorque": 300,
+      "engineMaxTorqueRPM": 4800,
+      "referenceWeight": 950,
+      "engineTurboPressure": 1
+    },
+    "aero": {
+      "ultimate_gear_rwd_frontengine": {
+        "frontDownforce": 6,
+        "rearDownforce": 14,
+        "cx": 0.33,
+        "sx": 0.73
+      }
+    }
+  }
 }
