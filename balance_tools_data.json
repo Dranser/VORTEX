@@ -11,44 +11,44 @@
     },
     "aero": {
       "arcade_gear_awd_frontengine": {
-        "frontDownforce": 76,
-        "rearDownforce": 84,
+        "frontDownforce": 36,
+        "rearDownforce": 42,
         "cx": 0.33,
         "sx": 0.73
       },
       "arcade_gear_awd_midengine": {
-        "frontDownforce": 76,
-        "rearDownforce": 84,
+        "frontDownforce": 36,
+        "rearDownforce": 42,
         "cx": 0.33,
         "sx": 0.73
       },
       "arcade_gear_awd_rearengine": {
-        "frontDownforce": 76,
-        "rearDownforce": 84,
+        "frontDownforce": 36,
+        "rearDownforce": 42,
         "cx": 0.33,
         "sx": 0.73
       },
       "arcade_gear_4wd_frontengine": {
-        "frontDownforce": 84,
-        "rearDownforce": 76,
+        "frontDownforce": 42,
+        "rearDownforce": 36,
         "cx": 0.33,
         "sx": 0.73
       },
       "arcade_gear_rwd_frontengine": {
-        "frontDownforce": 78,
-        "rearDownforce": 84,
+        "frontDownforce": 36,
+        "rearDownforce": 42,
         "cx": 0.33,
         "sx": 0.73
       },
       "arcade_gear_rwd_midengine": {
-        "frontDownforce": 76,
-        "rearDownforce": 84,
+        "frontDownforce": 36,
+        "rearDownforce": 42,
         "cx": 0.33,
         "sx": 0.73
       },
       "arcade_gear_rwd_rearengine": {
-        "frontDownforce": 76,
-        "rearDownforce": 84,
+        "frontDownforce": 36,
+        "rearDownforce": 42,
         "cx": 0.33,
         "sx": 0.73
       }
