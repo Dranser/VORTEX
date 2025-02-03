@@ -133,10 +133,10 @@
       "engineIdleRPM": 1200,
       "engineTurboCharged": 1,
       "engineRevLimiter": 9000,
-      "engineMaxTorque": 380,
+      "engineMaxTorque": 340,
       "engineMaxTorqueRPM": 4800,
       "referenceWeight": 950,
-      "engineTurboPressure": 1
+      "engineTurboPressure": 1.2
     },
     "aero": {
       "ultimate_gear_rwd_frontengine": {
