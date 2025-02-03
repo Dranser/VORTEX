@@ -5,7 +5,7 @@
       "engineTurboCharged": 0,
       "engineRevLimiter": 7800,
       "engineMaxTorque": 300,
-      "engineMaxTorqueRPM": 5200,
+      "engineMaxTorqueRPM": 4000,
       "referenceWeight": 945,
       "engineTurboPressure": 0
     },
