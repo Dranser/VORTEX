@@ -117,7 +117,7 @@
       "engineMaxTorque": 300,
       "engineMaxTorqueRPM": 4600,
       "referenceWeight": 950,
-      "engineTurboPressure": 0.65
+      "engineTurboPressure": 0.55
     },
     "aero": {
       "ultimate_gear_rwd_frontengine": {
