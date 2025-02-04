@@ -105,7 +105,7 @@
         "frontDownforce": 76,
         "rearDownforce": 88,
         "cx": 0.29,
-        "sx": 2.0
+        "sx": 1.9
       }
     }
   },
