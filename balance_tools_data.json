@@ -121,8 +121,8 @@
     },
     "aero": {
       "ultimate_gear_rwd_frontengine": {
-        "frontDownforce": 6,
-        "rearDownforce": 16,
+        "frontDownforce": 4,
+        "rearDownforce": 14,
         "cx": 0.33,
         "sx": 2.1
       }
