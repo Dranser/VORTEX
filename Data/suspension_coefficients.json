@@ -1,15 +1,15 @@
 {
   "ultimate_gear_rwd_frontengine": {
     "front_spring_way": 0.075,
-    "rear_spring_way": 0.072,
+    "rear_spring_way": 0.076,
     "front_fast_bump": 0.82,
     "front_fast_rebound": 0.9,
     "front_slow_bump": 0.87,
     "front_slow_rebound": 0.9,
-    "rear_fast_bump": 0.7,
+    "rear_fast_bump": 0.69, 
     "rear_fast_rebound": 0.8,
     "rear_slow_bump": 0.68,
-    "rear_slow_rebound": 0.65
+    "rear_slow_rebound": 0.68 
 },
   "arcade_gear_awd_frontengine": {
     "front_spring_way": 0.08,
