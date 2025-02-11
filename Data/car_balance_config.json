@@ -88,10 +88,10 @@
         "idleRPM": 1000,
         "turboCharged": 1,
         "revLimiter": 8635,
-        "maxTorque": 260,
+        "maxTorque": 200,
         "maxTorqueRPM": 4600,
         "referenceWeight": 950,
-        "turboPressure": 1.20,
+        "turboPressure": 1.4,
         "engineModifiers": {
           "gear_4wd": 0.9,
           "gear_awd": 1.0,
