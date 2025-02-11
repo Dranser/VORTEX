@@ -91,7 +91,7 @@
         "maxTorque": 290,
         "maxTorqueRPM": 4600,
         "referenceWeight": 950,
-        "turboPressure": 0.4,
+        "turboPressure": 0.8,
         "engineModifiers": {
           "gear_4wd": 0.9,
           "gear_awd": 1.0,
