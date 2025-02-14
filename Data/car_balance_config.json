@@ -16,29 +16,23 @@
           "gear_rwd": 1.0
         }
       },
-      "aero": [
-        {
-          "modification": "arcade",
-          "driveType": "gear_awd",
-          "engineLayout": "frontengine",
+      "gearbox": {
+        "gears": [3.10, 2.15, 1.60, 1.33, 1.17, 1.00],
+        "gearShiftingDelay": 0.06
+      },
+      "aero": {
+        "arcade_gear_awd_frontengine": {
           "frontDownforce": 36,
           "rearDownforce": 52,
           "cx": 0.32,
           "sx": 2.2
         },
-        {
-          "modification": "arcade",
-          "driveType": "gear_awd",
-          "engineLayout": "midengine",
+        "arcade_gear_awd_midengine": {
           "frontDownforce": 46,
           "rearDownforce": 52,
           "cx": 0.32,
           "sx": 2.2
         }
-      ],
-      "gearbox": {
-        "gears": [3.10, 2.15, 1.60, 1.33, 1.17, 1.00],
-        "gearShiftingDelay": 0.06
       }
     },
     {
@@ -57,29 +51,23 @@
           "gear_rwd": 1.0
         }
       },
-      "aero": [
-        {
-          "modification": "arcade",
-          "driveType": "gear_awd",
-          "engineLayout": "frontengine",
+      "gearbox": {
+        "gears": [2.583, 1.86, 1.526, 1.304, 1.129, 1.00],
+        "gearShiftingDelay": 0.06
+      },
+      "aero": {
+        "arcade_gear_awd_frontengine": {
           "frontDownforce": 46,
           "rearDownforce": 52,
           "cx": 0.29,
           "sx": 2.0
         },
-        {
-          "modification": "arcade",
-          "driveType": "gear_4wd",
-          "engineLayout": "rearengine",
+        "arcade_gear_4wd_rearengine": {
           "frontDownforce": 50,
           "rearDownforce": 48,
           "cx": 0.30,
           "sx": 2.1
         }
-      ],
-      "gearbox": {
-        "gears": [2.583, 1.86, 1.526, 1.304, 1.129, 1.00],
-        "gearShiftingDelay": 0.06
       }
     },
     {
@@ -98,20 +86,17 @@
           "gear_rwd": 1.0
         }
       },
-      "aero": [
-        {
-          "modification": "ultimate",
-          "driveType": "gear_rwd",
-          "engineLayout": "frontengine",
+      "gearbox": {
+        "gears": [3.10, 2.15, 1.60, 1.33, 1.17, 1.00],
+        "gearShiftingDelay": 0.06
+      },
+      "aero": {
+        "ultimate_gear_rwd_frontengine": {
           "frontDownforce": 4,
           "rearDownforce": 14,
           "cx": 0.33,
           "sx": 2.1
         }
-      ],
-      "gearbox": {
-        "gears": [3.10, 2.15, 1.60, 1.33, 1.17, 1.00],
-        "gearShiftingDelay": 0.06
       }
     },
     {
@@ -130,20 +115,17 @@
           "gear_rwd": 1.0
         }
       },
-      "aero": [
-        {
-          "modification": "ultimate",
-          "driveType": "gear_rwd",
-          "engineLayout": "frontengine",
+      "gearbox": {
+        "gears": [2.583, 1.86, 1.526, 1.304, 1.129, 1.00],
+        "gearShiftingDelay": 0.06
+      },
+      "aero": {
+        "ultimate_gear_rwd_frontengine": {
           "frontDownforce": 6,
           "rearDownforce": 16,
           "cx": 0.33,
           "sx": 2.1
         }
-      ],
-      "gearbox": {
-        "gears": [2.583, 1.86, 1.526, 1.304, 1.129, 1.00],
-        "gearShiftingDelay": 0.06
       }
     }
   ],
