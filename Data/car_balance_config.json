@@ -1,138 +1,122 @@
 {
-  "raceClasses": [
-    {
-      "name": "Turing",
-      "engine": {
-        "idleRPM": 1000,
-        "turboCharged": 0,
-        "revLimiter": 8000,
-        "maxTorque": 310,
-        "maxTorqueRPM": 4600,
-        "referenceWeight": 945,
-        "turboPressure": 0,
-        "engineModifiers": {
-          "gear_4wd": 0.9,
-          "gear_awd": 1.0,
-          "gear_rwd": 1.0
-        }
-      },
-      "gearbox": {
-        "gears": [3.10, 2.15, 1.60, 1.33, 1.17, 1.00],
-        "gearShiftingDelay": 0.06
-      },
-      "aero": {
-        "arcade_gear_awd_frontengine": {
-          "frontDownforce": 36,
-          "rearDownforce": 52,
-          "cx": 0.32,
-          "sx": 2.2
-        },
-        "arcade_gear_awd_midengine": {
-          "frontDownforce": 46,
-          "rearDownforce": 52,
-          "cx": 0.32,
-          "sx": 2.2
-        }
+  "Turing": {
+    "engine": {
+      "idleRPM": 1000,
+      "turboCharged": 0,
+      "revLimiter": 8000,
+      "maxTorque": 310,
+      "maxTorqueRPM": 4600,
+      "turboPressure": 0,
+      "engineModifiers": {
+        "gear_4wd": 0.9,
+        "gear_awd": 1.0,
+        "gear_rwd": 1.0
       }
     },
-    {
-      "name": "GT",
-      "engine": {
-        "idleRPM": 1200,
-        "turboCharged": 0,
-        "revLimiter": 8200,
-        "maxTorque": 420,
-        "maxTorqueRPM": 6000,
-        "referenceWeight": 909,
-        "turboPressure": 0,
-        "engineModifiers": {
-          "gear_4wd": 0.9,
-          "gear_awd": 1.0,
-          "gear_rwd": 1.0
-        }
-      },
-      "gearbox": {
-        "gears": [2.583, 1.86, 1.526, 1.304, 1.129, 1.00],
-        "gearShiftingDelay": 0.06
-      },
-      "aero": {
-        "arcade_gear_awd_frontengine": {
-          "frontDownforce": 46,
-          "rearDownforce": 52,
-          "cx": 0.29,
-          "sx": 2.0
-        },
-        "arcade_gear_4wd_rearengine": {
-          "frontDownforce": 50,
-          "rearDownforce": 48,
-          "cx": 0.30,
-          "sx": 2.1
-        }
-      }
+    "gearbox": {
+      "gears": [3.10, 2.15, 1.60, 1.33, 1.17, 1.00],
+      "gearShiftingDelay": 0.06
     },
-    {
-      "name": "Drift",
-      "engine": {
-        "idleRPM": 1000,
-        "turboCharged": 1,
-        "revLimiter": 8635,
-        "maxTorque": 290,
-        "maxTorqueRPM": 4600,
-        "referenceWeight": 950,
-        "turboPressure": 0.8,
-        "engineModifiers": {
-          "gear_4wd": 0.9,
-          "gear_awd": 1.0,
-          "gear_rwd": 1.0
-        }
+    "aero": {
+      "arcade_gear_awd_frontengine": {
+        "frontDownforce": 36,
+        "rearDownforce": 52,
+        "cx": 0.32,
+        "sx": 2.2
       },
-      "gearbox": {
-        "gears": [3.10, 2.15, 1.60, 1.33, 1.17, 1.00],
-        "gearShiftingDelay": 0.06
-      },
-      "aero": {
-        "ultimate_gear_rwd_frontengine": {
-          "frontDownforce": 4,
-          "rearDownforce": 14,
-          "cx": 0.33,
-          "sx": 2.1
-        }
-      }
-    },
-    {
-      "name": "ProDrift",
-      "engine": {
-        "idleRPM": 1200,
-        "turboCharged": 1,
-        "revLimiter": 9035,
-        "maxTorque": 290,
-        "maxTorqueRPM": 4800,
-        "referenceWeight": 950,
-        "turboPressure": 1.2,
-        "engineModifiers": {
-          "gear_4wd": 0.9,
-          "gear_awd": 1.0,
-          "gear_rwd": 1.0
-        }
-      },
-      "gearbox": {
-        "gears": [2.583, 1.86, 1.526, 1.304, 1.129, 1.00],
-        "gearShiftingDelay": 0.06
-      },
-      "aero": {
-        "ultimate_gear_rwd_frontengine": {
-          "frontDownforce": 6,
-          "rearDownforce": 16,
-          "cx": 0.33,
-          "sx": 2.1
-        }
+      "arcade_gear_awd_midengine": {
+        "frontDownforce": 46,
+        "rearDownforce": 52,
+        "cx": 0.32,
+        "sx": 2.2
       }
     }
-  ],
-  "weight": {
-    "minWeight": 700,
-    "maxWeight": 2200,
-    "minReduction": 3,
-    "maxReduction": 30
+  },
+  "GT": {
+    "engine": {
+      "idleRPM": 1200,
+      "turboCharged": 0,
+      "revLimiter": 8200,
+      "maxTorque": 420,
+      "maxTorqueRPM": 6000,
+      "turboPressure": 0,
+      "engineModifiers": {
+        "gear_4wd": 0.9,
+        "gear_awd": 1.0,
+        "gear_rwd": 1.0
+      }
+    },
+    "gearbox": {
+      "gears": [2.583, 1.86, 1.526, 1.304, 1.129, 1.00],
+      "gearShiftingDelay": 0.06
+    },
+    "aero": {
+      "arcade_gear_awd_frontengine": {
+        "frontDownforce": 46,
+        "rearDownforce": 52,
+        "cx": 0.29,
+        "sx": 2.0
+      },
+      "arcade_gear_4wd_rearengine": {
+        "frontDownforce": 50,
+        "rearDownforce": 48,
+        "cx": 0.30,
+        "sx": 2.1
+      }
+    }
+  },
+  "Drift": {
+    "engine": {
+      "idleRPM": 1000,
+      "turboCharged": 1,
+      "revLimiter": 8635,
+      "maxTorque": 290,
+      "maxTorqueRPM": 4600,
+      "turboPressure": 0.8,
+      "engineModifiers": {
+        "gear_4wd": 0.9,
+        "gear_awd": 1.0,
+        "gear_rwd": 1.0
+      }
+    },
+    "gearbox": {
+      "gears": [3.10, 2.15, 1.60, 1.33, 1.17, 1.00],
+      "gearShiftingDelay": 0.06
+    },
+    "aero": {
+      "ultimate_gear_rwd_frontengine": {
+        "frontDownforce": 4,
+        "rearDownforce": 14,
+        "cx": 0.33,
+        "sx": 2.1
+      }
+    }
+  },
+  "ProDrift": {
+    "engine": {
+      "idleRPM": 1200,
+      "turboCharged": 1,
+      "revLimiter": 9035,
+      "maxTorque": 290,
+      "maxTorqueRPM": 4800,
+      "turboPressure": 1.2,
+      "engineModifiers": {
+        "gear_4wd": 0.9,
+        "gear_awd": 1.0,
+        "gear_rwd": 1.0
+      }
+    },
+    "gearbox": {
+      "gears": [2.583, 1.86, 1.526, 1.304, 1.129, 1.00],
+      "gearShiftingDelay": 0.06
+    },
+    "aero": {
+      "ultimate_gear_rwd_frontengine": {
+        "frontDownforce": 6,
+        "rearDownforce": 16,
+        "cx": 0.33,
+        "sx": 2.1
+      }
+    }
   }
 }
