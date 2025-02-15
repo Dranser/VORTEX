@@ -6,12 +6,7 @@
       "revLimiter": 8000,
       "maxTorque": 310,
       "maxTorqueRPM": 4600,
-      "turboPressure": 0,
-      "engineModifiers": {
-        "gear_4wd": 0.9,
-        "gear_awd": 1.0,
-        "gear_rwd": 1.0
-      }
+      "turboPressure": 0
     },
     "gearbox": {
       "gears": [3.10, 2.15, 1.60, 1.33, 1.17, 1.00],
@@ -39,12 +34,7 @@
       "revLimiter": 8200,
       "maxTorque": 420,
       "maxTorqueRPM": 6000,
-      "turboPressure": 0,
-      "engineModifiers": {
-        "gear_4wd": 0.9,
-        "gear_awd": 1.0,
-        "gear_rwd": 1.0
-      }
+      "turboPressure": 0
     },
     "gearbox": {
       "gears": [2.583, 1.86, 1.526, 1.304, 1.129, 1.00],
@@ -72,12 +62,7 @@
       "revLimiter": 8635,
       "maxTorque": 290,
       "maxTorqueRPM": 4600,
-      "turboPressure": 0.8,
-      "engineModifiers": {
-        "gear_4wd": 0.9,
-        "gear_awd": 1.0,
-        "gear_rwd": 1.0
-      }
+      "turboPressure": 0.8
     },
     "gearbox": {
       "gears": [3.10, 2.15, 1.60, 1.33, 1.17, 1.00],
@@ -99,12 +84,7 @@
       "revLimiter": 9035,
       "maxTorque": 290,
       "maxTorqueRPM": 4800,
-      "turboPressure": 1.2,
-      "engineModifiers": {
-        "gear_4wd": 0.9,
-        "gear_awd": 1.0,
-        "gear_rwd": 1.0
-      }
+      "turboPressure": 1.2
     },
     "gearbox": {
       "gears": [2.583, 1.86, 1.526, 1.304, 1.129, 1.00],
