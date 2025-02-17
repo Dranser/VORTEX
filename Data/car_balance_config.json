@@ -24,6 +24,12 @@
         "rearDownforce": 52,
         "cx": 0.32,
         "sx": 2.2
+      },
+      "arcade_gear_4wd_frontengine": {
+        "frontDownforce": 36,
+        "rearDownforce": 52,
+        "cx": 0.32,
+        "sx": 2.2
       }
     }
   },
