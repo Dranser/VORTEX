@@ -48,7 +48,7 @@
     "rear_slow_rebound": 0.9
   },
   "arcade_gear_4wd_frontengine": {
-    "front_spring_way": 0.075,
+    "front_spring_way": 0.0751,
     "rear_spring_way": 0.08,
     "front_fast_bump": 0.55,
     "front_fast_rebound": 0.6,
