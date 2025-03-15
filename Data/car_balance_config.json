@@ -1,5 +1,5 @@
 {
-  "Turing": {
+  "TURING": {
     "engine": {
       "idleRPM": 1000,
       "turboCharged": 0,
@@ -12,50 +12,7 @@
       "gears": [3.10, 2.15, 1.60, 1.33, 1.17, 1.00],
       "gearShiftingDelay": 0.06
     },
-    "aero": {
-      "arcade_gear_awd_frontengine": {
-        "frontDownforce": 36,
-        "rearDownforce": 52,
-        "cx": 0.32,
-        "sx": 2.2
-      },
-      "arcade_gear_awd_midengine": {
-        "frontDownforce": 46,
-        "rearDownforce": 52,
-        "cx": 0.32,
-        "sx": 2.2
-      },
-      "arcade_gear_awd_rearengine": {
-        "frontDownforce": 46,
-        "rearDownforce": 52,
-        "cx": 0.32,
-        "sx": 2.2
-      },
-      "arcade_gear_4wd_frontengine": {
-        "frontDownforce": 46,
-        "rearDownforce": 52,
-        "cx": 0.32,
-        "sx": 2.2
-      },
-      "arcade_gear_rwd_frontengine": {
-        "frontDownforce": 46,
-        "rearDownforce": 52,
-        "cx": 0.32,
-        "sx": 2.2
-      },
-      "arcade_gear_rwd_midengine": {
-        "frontDownforce": 46,
-        "rearDownforce": 52,
-        "cx": 0.32,
-        "sx": 2.2
-      },
-      "arcade_gear_rwd_rearengine": {
-        "frontDownforce": 46,
-        "rearDownforce": 52,
-        "cx": 0.32,
-        "sx": 2.2
-      }
-    }
+    "aeroTemplate": "arcade_turing"
   },
   "GT": {
     "engine": {
@@ -70,52 +27,9 @@
       "gears": [2.583, 1.86, 1.526, 1.304, 1.129, 1.00],
       "gearShiftingDelay": 0.06
     },
-    "aero": {
-      "arcade_gear_awd_frontengine": {
-        "frontDownforce": 76,
-        "rearDownforce": 86,
-        "cx": 0.29,
-        "sx": 2.0
-      },
-      "arcade_gear_awd_midengine": {
-        "frontDownforce": 76,
-        "rearDownforce": 86,
-        "cx": 0.29,
-        "sx": 2.0
-      },
-      "arcade_gear_awd_rearengine": {
-        "frontDownforce": 76,
-        "rearDownforce": 86,
-        "cx": 0.29,
-        "sx": 2.0
-      },
-      "arcade_gear_4wd_frontengine": {
-        "frontDownforce": 86,
-        "rearDownforce": 76,
-        "cx": 0.29,
-        "sx": 2.0
-      },
-      "arcade_gear_rwd_frontengine": {
-        "frontDownforce": 78,
-        "rearDownforce": 86,
-        "cx": 0.29,
-        "sx": 2.0
-      },
-      "arcade_gear_rwd_midengine": {
-        "frontDownforce": 76,
-        "rearDownforce": 86,
-        "cx": 0.29,
-        "sx": 2.00
-      },
-      "arcade_gear_rwd_rearengine": {
-        "frontDownforce": 76,
-        "rearDownforce": 86,
-        "cx": 0.29,
-        "sx": 2.00
-      }
-    }
+    "aeroTemplate": "arcade_gt"
   },
-  "Drift": {
+  "DRIFT": {
     "engine": {
       "idleRPM": 1000,
       "turboCharged": 1,
@@ -128,16 +42,9 @@
       "gears": [3.10, 2.15, 1.60, 1.33, 1.17, 1.00],
       "gearShiftingDelay": 0.06
     },
-    "aero": {
-      "ultimate_gear_rwd_frontengine": {
-        "frontDownforce": 4,
-        "rearDownforce": 14,
-        "cx": 0.33,
-        "sx": 2.1
-      }
-    }
+    "aeroTemplate": "ultimate_drift"
   },
-  "ProDrift": {
+  "PRODRIFT": {
     "engine": {
       "idleRPM": 1200,
       "turboCharged": 1,
@@ -150,13 +57,19 @@
       "gears": [2.583, 1.86, 1.526, 1.304, 1.129, 1.00],
       "gearShiftingDelay": 0.06
     },
-    "aero": {
-      "ultimate_gear_rwd_frontengine": {
-        "frontDownforce": 6,
-        "rearDownforce": 16,
-        "cx": 0.33,
-        "sx": 2.1
-      }
+    "aeroTemplate": "ultimate_drift"
+  },
+  "AEROTEMPLATES": {
+    "arcade_turing": {
+      "GEAR_AWD_FRONTENGINE": { "frontDownforce": 36, "rearDownforce": 52, "cx": 0.32, "sx": 2.2 },
+      "GEAR_RWD_FRONTENGINE": { "frontDownforce": 46, "rearDownforce": 52, "cx": 0.32, "sx": 2.2 }
+    },
+    "arcade_gt": {
+      "GEAR_AWD_FRONTENGINE": { "frontDownforce": 76, "rearDownforce": 86, "cx": 0.29, "sx": 2.0 },
+      "GEAR_RWD_FRONTENGINE": { "frontDownforce": 78, "rearDownforce": 86, "cx": 0.29, "sx": 2.0 }
+    },
+    "ultimate_drift": {
+      "GEAR_RWD_FRONTENGINE": { "frontDownforce": 4, "rearDownforce": 14, "cx": 0.33, "sx": 2.1 }
     }
   }
 }
