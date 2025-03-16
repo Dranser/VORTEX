@@ -39,7 +39,7 @@
       "turboPressure": 0.8
     },
     "gearbox": {
-      "gears": [2.90, 2.08, 1.62, 1.31, 1.10, 0.94],
+      "gears": [2.92, 2.08, 1.62, 1.31, 1.10, 0.94],
       "gearShiftingDelay": 0.06
     },
     "aeroTemplate": "ultimate_drift"
