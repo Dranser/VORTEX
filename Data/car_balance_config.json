@@ -61,15 +61,28 @@
   },
   "AEROTEMPLATES": {
     "arcade_turing": {
+      "GEAR_4WD_FRONTENGINE": { "frontDownforce": 40, "rearDownforce": 55, "cx": 0.31, "sx": 2.3 },
       "GEAR_AWD_FRONTENGINE": { "frontDownforce": 36, "rearDownforce": 52, "cx": 0.32, "sx": 2.2 },
-      "GEAR_RWD_FRONTENGINE": { "frontDownforce": 46, "rearDownforce": 52, "cx": 0.32, "sx": 2.2 }
+      "GEAR_AWD_MIDENGINE": { "frontDownforce": 46, "rearDownforce": 52, "cx": 0.32, "sx": 2.2 },
+      "GEAR_AWD_REARENGINE": { "frontDownforce": 46, "rearDownforce": 52, "cx": 0.32, "sx": 2.2 },
+      "GEAR_RWD_FRONTENGINE": { "frontDownforce": 46, "rearDownforce": 52, "cx": 0.32, "sx": 2.2 },
+      "GEAR_RWD_MIDENGINE": { "frontDownforce": 46, "rearDownforce": 52, "cx": 0.32, "sx": 2.2 },
+      "GEAR_RWD_REARENGINE": { "frontDownforce": 46, "rearDownforce": 52, "cx": 0.32, "sx": 2.2 }
     },
     "arcade_gt": {
+      "GEAR_4WD_FRONTENGINE": { "frontDownforce": 80, "rearDownforce": 90, "cx": 0.28, "sx": 2.1 },
       "GEAR_AWD_FRONTENGINE": { "frontDownforce": 76, "rearDownforce": 86, "cx": 0.29, "sx": 2.0 },
-      "GEAR_RWD_FRONTENGINE": { "frontDownforce": 78, "rearDownforce": 86, "cx": 0.29, "sx": 2.0 }
+      "GEAR_AWD_MIDENGINE": { "frontDownforce": 76, "rearDownforce": 86, "cx": 0.29, "sx": 2.0 },
+      "GEAR_AWD_REARENGINE": { "frontDownforce": 76, "rearDownforce": 86, "cx": 0.29, "sx": 2.0 },
+      "GEAR_RWD_FRONTENGINE": { "frontDownforce": 78, "rearDownforce": 86, "cx": 0.29, "sx": 2.0 },
+      "GEAR_RWD_MIDENGINE": { "frontDownforce": 76, "rearDownforce": 86, "cx": 0.29, "sx": 2.00 },
+      "GEAR_RWD_REARENGINE": { "frontDownforce": 76, "rearDownforce": 86, "cx": 0.29, "sx": 2.00 }
     },
     "ultimate_drift": {
       "GEAR_RWD_FRONTENGINE": { "frontDownforce": 4, "rearDownforce": 14, "cx": 0.33, "sx": 2.1 }
+    },
+    "ultimate_prodrift": {
+      "GEAR_RWD_FRONTENGINE": { "frontDownforce": 6, "rearDownforce": 16, "cx": 0.33, "sx": 2.1 }
     }
   }
 }
