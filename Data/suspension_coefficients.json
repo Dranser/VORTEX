@@ -1,16 +1,16 @@
 {
   "SUSPENSION_CONFIGS": {
     "TURING_FRONTENGINE": {
-      "front_spring_way": 0.075,
-      "rear_spring_way": 0.077,
-      "front_fast_bump": 0.82,
-      "front_fast_rebound": 0.9,
-      "front_slow_bump": 0.87,
-      "front_slow_rebound": 0.9,
-      "rear_fast_bump": 0.69,
-      "rear_fast_rebound": 0.79,
-      "rear_slow_bump": 0.68,
-      "rear_slow_rebound": 0.69
+      "front_spring_way": 0.0706,
+      "rear_spring_way": 0.0613,
+      "front_fast_bump": 0.34,
+      "front_fast_rebound": 0.316,
+      "front_slow_bump": 0.408,
+      "front_slow_rebound": 0.498,
+      "rear_fast_bump": 0.419,
+      "rear_fast_rebound": 0.392,
+      "rear_slow_bump": 0.503,
+      "rear_slow_rebound": 0.615
     },
     "TURING_MIDENGINE": {
       "front_spring_way": 0.08,
