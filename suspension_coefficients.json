@@ -48,7 +48,19 @@
       "rear_slow_bump": 0.85,
       "rear_slow_rebound": 0.9
     },
-    "arcade_gear_4wd_frontengine": {
+    "arcade_gear_4wd_midengine": {
+      "front_spring_way": 0.085,
+      "rear_spring_way": 0.065,
+      "front_fast_bump": 0.5,
+      "front_fast_rebound": 0.55,
+      "front_slow_bump": 0.7,
+      "front_slow_rebound": 0.75,
+      "rear_fast_bump": 0.75,
+      "rear_fast_rebound": 0.8,
+      "rear_slow_bump": 0.85,
+      "rear_slow_rebound": 0.9
+    },
+    "arcade_gear_4wd_midengine": {
       "front_spring_way": 0.075,
       "rear_spring_way": 0.08,
       "front_fast_bump": 0.55,
