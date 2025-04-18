@@ -1,5 +1,5 @@
 {
-  "version": "1.0.4",
+  "version": "1.0.5",
   "suspension_presets": {
     "time_attack": {
       "front_fast_bump": 0.34,
@@ -22,9 +22,8 @@
   "front_fast_rebound": 0.45,
   "rear_slow_bump": 0.40,
   "rear_fast_bump": 0.25,
-  "rear_slow_rebound": 0.50,
+  "rear_slow_rebound": 0.45,
   "rear_fast_rebound": 0.35
 }
-
   }
 }
