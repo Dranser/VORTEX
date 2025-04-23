@@ -1,5 +1,5 @@
 {
-  "version": "1.6.1",
+  "version": "1.6.2",
   "suspension_presets": {
     "time_attack": {
       "front_spring_way": 0.0700,
@@ -7,10 +7,10 @@
       "front_fast_bump": 0.68,
       "front_fast_rebound": 0.65,
       "front_slow_bump": 0.66,
-      "front_slow_rebound": 0.76,
+      "front_slow_rebound": 0.68,
       "rear_fast_bump": 0.88,
       "rear_fast_rebound": 1.2,
-      "rear_slow_bump": 1.0,
+      "rear_slow_bump": 0.94,
       "rear_slow_rebound": 1.45
     },
     "drift": {
