@@ -32,12 +32,6 @@ The mod includes tools to collect axle load data, visualize setup progress, and 
 
 ---
 
-## Screenshots
-
-*(add your screenshots here when ready)*
-
----
-
 ## Credits
 
 Developed by **Dranser**
