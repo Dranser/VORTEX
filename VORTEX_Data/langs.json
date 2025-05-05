@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": "1.0.0",
   "en": {
     "start_recording": "Start RMS Recording",
     "recording_hint": "Press to begin recording suspension data over time.\nEnsure you're driving above 40 km/h.",
