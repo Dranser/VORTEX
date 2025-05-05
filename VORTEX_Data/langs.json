@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "en": {
+    "start_recording": "Start RMS Recording",
+    "recording_hint": "Press to begin recording suspension data over time.\nEnsure you're driving above 40 km/h.",
+    "recording_label": "Recording...",
+    "stop_recording": "Stop Recording",
+    "recording_in_progress": "Recording in progress.\nData collection is not time-limited.\nPress 'Stop Recording' manually once you're satisfied.",
+    "apply_to_dyno": "Apply Setup to Dyno",
+    "rms_collected_dyno": "RMS data has been collected.\nApply the calculated suspension setup to your dyno session.",
+    "rms_collected_other": "RMS data has been collected.\nTo apply the setup, enter the dyno environment.",
+    "reset_rms": "Reset RMS Buffer",
+
+    "enable_adaptive": "Enable Adaptive Suspension",
+    "disable_adaptive": "Disable Adaptive Suspension",
+    "adaptive_active_hint": "Adaptive suspension is actively adjusting values based on real-time data.",
+    "adaptive_inactive_hint": "Adaptive suspension allows real-time adjustment of suspension stiffness to track conditions.\nUse this mode to quickly adapt without manual setup.",
+    "reaction_speed_label": "Reaction Speed (EMA α)",
+    "reaction_speed_hint": "Higher = faster reaction to bumps and load changes\nLower = smoother but less responsive behavior",
+
+    "monitor_title": "Real-time axle load",
+    "clear_graph": "Clear Graph",
+    "bias_label": "Axle Load Balance"
+  },
+  "ru": {
+    "start_recording": "Начать запись RMS",
+    "recording_hint": "Нажмите, чтобы начать запись данных подвески во время езды.\nУбедитесь, что скорость выше 40 км/ч.",
+    "recording_label": "Идёт запись...",
+    "stop_recording": "Остановить запись",
+    "recording_in_progress": "Запись активна.\nДанные собираются без ограничения по времени.\nНажмите 'Остановить', когда будет достаточно.",
+    "apply_to_dyno": "Применить к диностенду",
+    "rms_collected_dyno": "Данные RMS собраны.\nМожно применить настройки подвески к диностенду.",
+    "rms_collected_other": "Данные RMS собраны.\nЧтобы применить настройки, зайдите в диностенд.",
+    "reset_rms": "Сбросить буфер RMS",
+
+    "enable_adaptive": "Включить адаптивную подвеску",
+    "disable_adaptive": "Отключить адаптивную подвеску",
+    "adaptive_active_hint": "Адаптивная подвеска активно настраивается в реальном времени.",
+    "adaptive_inactive_hint": "Позволяет автоматически настраивать жесткость подвески под трассу в реальном времени.\nУдобно для быстрой адаптации без ручного ввода.",
+    "reaction_speed_label": "Чувствительность подвески (EMA α)",
+    "reaction_speed_hint": "Выше — быстрая реакция на удары и нагрузку\nНиже — плавнее, но медленнее адаптация",
+
+    "monitor_title": "Нагрузка на оси в реальном времени",
+    "clear_graph": "Очистить график",
+    "bias_label": "Баланс нагрузки по осям"
+  }
+}
