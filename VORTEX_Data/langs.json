@@ -22,7 +22,17 @@
     "clear_graph": "Clear Graph",
     "bias_label": "Axle Load Balance",
     "rms_setup_title": "RMS Setup",
-    "adaptive_section_title": "Adaptive Suspension"
+    "adaptive_section_title": "Adaptive Suspension",
+
+    "settings_section_title": "Settings",
+    "theme_label": "Theme",
+    "theme_dark": "Dark",
+    "theme_light": "Light",
+    "language_label": "Language",
+    "language_en": "EN",
+    "language_ru": "RU",
+
+    "speed_monitor_title": "Real-time speed"
   },
   "ru": {
     "start_recording": "Начать запись RMS",
@@ -46,6 +56,16 @@
     "clear_graph": "Очистить график",
     "bias_label": "Баланс нагрузки по осям",
     "rms_setup_title": "Настройка RMS",
-    "adaptive_section_title": "Адаптивная подвеска"
+    "adaptive_section_title": "Адаптивная подвеска",
+
+    "settings_section_title": "Настройки",
+    "theme_label": "Тема",
+    "theme_dark": "Тёмная",
+    "theme_light": "Светлая",
+    "language_label": "Язык",
+    "language_en": "Английский",
+    "language_ru": "Русский",
+
+    "speed_monitor_title": "Скорость в реальном времени"
   }
 }
