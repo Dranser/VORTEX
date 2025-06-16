@@ -21,7 +21,7 @@
       "front_slow_bump": 0.85,
       "front_slow_rebound": 0.9,
       "rear_fast_bump": 0.95,
-      "rear_fast_rebound": 0.95,
+      "rear_fast_rebound": 1.00,
       "rear_slow_bump": 1.0,
       "rear_slow_rebound": 1.05
     }
