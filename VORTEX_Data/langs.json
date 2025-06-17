@@ -30,8 +30,8 @@
     "speed_monitor_title": "Real-time speed",
     "trust_threshold_label": "Trust Threshold",
     "max_lerp_label": "Max Lerp Factor",
-    "adaptive_slider_hint": "Trust Threshold defines how much force change is considered real.\nMax Lerp controls how fast suspension adapts.\nLower = smoother, Higher = more reactive."
-
+    "adaptive_slider_hint": "Trust Threshold defines how much force change is considered real.\nMax Lerp controls how fast suspension adapts.\nLower = smoother, Higher = more reactive.",
+    "update_coefficients": "Update Coefficients from Git"
   },
   "ru": {
     "start_recording": "Начать запись RMS",
@@ -63,6 +63,7 @@
     "speed_monitor_title": "Скорость в реальном времени",
     "trust_threshold_label": "Порог доверия",
     "max_lerp_label": "Макс. скорость реакции",
-    "adaptive_slider_hint": "Порог доверия определяет, какое изменение нагрузки считается реальным.\nМакс. фактор реакции управляет скоростью адаптации.\nМеньше — плавнее, больше — быстрее."
+    "adaptive_slider_hint": "Порог доверия определяет, какое изменение нагрузки считается реальным.\nМакс. фактор реакции управляет скоростью адаптации.\nМеньше — плавнее, больше — быстрее.",
+    "update_coefficients": "Обновить коэффициенты с Git"
   }
 }
