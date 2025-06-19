@@ -15,7 +15,7 @@
     },
     "drift": {
       "front_spring_way": 0.065,
-      "rear_spring_way": 0.058,
+      "rear_spring_way": 0.065,
       "front_fast_bump": 0.72,
       "front_fast_rebound": 0.78,
       "front_slow_bump": 0.90,
