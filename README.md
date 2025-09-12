@@ -1,37 +1,92 @@
 # VORTEX – Suspension Tuning Assistant for CarX Drift Racing Online
 
-**VORTEX** is a gameplay mod for **CarX Drift Racing Online** that assists with suspension tuning and provides an adaptive suspension system.
+VORTEX — это мод для CarX Drift Racing Online (KSL), который помогает настраивать подвеску и включает адаптивную систему, корректирующую параметры в реальном времени по данным с трассы.
 
-The mod includes tools to collect axle load data, visualize setup progress, and apply real-time suspension adjustments both on-track and inside the dynostand.
+Мод умеет собирать нагрузку на осях и колёсах, строить наглядные графики, применять рассчитанные настройки в династенде, а также адаптировать демпфирование «на лету» в зависимости от продольных и поперечных нагрузок.
 
----
+Версия мода: 1.7.0
 
-## What VORTEX Does
+—
 
-- Helps configure suspension by collecting and analyzing axle load data (RMS method)
-- Enables adaptive suspension correction during braking and acceleration
-- Provides an in-game interface to apply, monitor, and adjust suspension settings
-- Offers clear analytics on springs, dampers, stabilizers, and load balance
-- Works seamlessly during practice sessions and tuning stages
+## Что умеет VORTEX
 
----
+- Сбор данных (RMS): запись медленной/быстрой составляющей вертикальных нагрузок на каждое колесо и ось
+- Автоматический расчёт базовой настройки (пружины, демпферы, стабилизаторы) из собранных данных
+- Адаптивная подвеска: корректирует демпфирование в реальном времени с учётом торможения/разгона и поперечной асимметрии
+- Визуализация: графики осевых нагрузок, скорости и индикатор баланса (bias)
+- Редактор «Custom (Manual)»: правка коэффициентов, копирование значений из версий пресетов
+- Темы интерфейса (dark/light/modern) и локализация (EN/RU) с подгрузкой из Git
 
-## Key Functions
+—
 
-- **Start RMS Collection** – Record axle load data during normal driving
-- **Apply Suspension** – Automatically calculate and apply suspension settings
-- **Adaptive Suspension** – Enable automatic real-time corrections based on driving inputs
-- **Analytics Section** – View detailed technical parameters of your car’s suspension
+## Основные разделы UI
 
----
+- RMS Setup: запуск/остановка записи, применение настроек в династенде, обновление коэффициентов, выбор версии пресетов
+- Adaptive Suspension: включение/отключение адаптива и тонкая настройка чувствительности
+  - Trust Threshold, Max Lerp
+  - Asym Rebound/Bump Gain, Adaptive Rate
+  - Long Rebound/Bump Gain (учёт торможения/разгона, приглушение на больших боковых нагрузках)
+- Monitor: графики передней/задней осей, баланс нагрузки
+- Speed: график скорости
+- Settings: смена темы и языка
+- Debug: текущие «сырые» значения для отладки (статусы демпферов и т.д.)
 
-## Requirements
+Горячая клавиша: F8 — открыть/закрыть главное окно (можно также через кнопку KSL UI).
 
-- CarX Drift Racing Online (Steam version)
-- KSL Mod Loader installed
+—
 
----
+## Как это работает (коротко)
+
+- Сбор RMS: при скорости выше ~40 км/ч и на асфальте фильтруются медленная (пружины/стаб) и быстрая (RMS) компоненты по каждому колесу. По ним строится базовая физическая настройка.
+- Применение в Dyno: после завершения записи (RMS Completed) мод строит сетап и применяет его в текущем династенде.
+- Адаптив: во время заезда периодически пересчитываются целевые множители демпфирования с учётом поперечной асимметрии и продольных нагрузок; применяются мягко (rate limit) и только при «достоверных» нагрузках.
+
+—
+
+## Пресеты и коэффициенты
+
+- Источник пресетов подхватывается из Git (GitHub Pages): VORTEX_Data/suspension_ratios.json
+- Поддерживаются версии пресетов; переключение версии — в UI (дропдаун «Version»)
+- «Custom (Manual)»: отдельное окно редактирования с разбивкой на секции (пружины/демпфирование/быстрые/баланс/крен/стабы) и копированием из выбранной версии
+- Обновление «Update Coefficients from Git» доступно в UI (с антиспам-кулдауном)
+
+—
+
+## Локализация и темы
+
+- Языки: EN/RU, загружаются из VORTEX_Data/langs.json (онлайн)
+- Темы: dark, light, modern — переключаются в разделе Settings
+
+—
+
+## Требования
+
+- CarX Drift Racing Online (Steam)
+- Установленный KSL Mod Loader
+
+—
+
+## Конфигурация и файлы
+
+- Пользовательские конфиги (создаются и поддерживаются модом):
+  - system: Kino/Mods/VX_Base/cfg/system/init.cfg (тема, язык, сворачивание секций)
+  - adaptive: Kino/Mods/VX_Base/cfg/adaptive/adaptive_suspension.cfg (чувствительность адаптива)
+  - custom UI: Kino/Mods/VX_Base/cfg/ui/custom_suspension_ui.json
+  - custom set: Kino/Mods/VX_Base/cfg/suspension/custom_suspension.json
+- Логи RMS: сохраняются в Kino/Mods/VORTEX в CSV (Speed, FrontLoad, RearLoad)
+
+—
+
+## Ограничения и примечания
+
+- Сбор RMS и адаптив активны только на асфальте и при валидном состоянии машины (все 4 колеса, игра на трассе)
+- Порог скорости для сбора ~40 км/ч; запись не ограничена по времени — останавливается вручную
+- Применение «Apply to Dyno» доступно при активном династенде
+- При высоких поперечных нагрузках адаптив бережно ограничивает изменения по «bump», чтобы избежать излишней жёсткости/потери зацепа
+
+—
 
 ## Credits
 
-Developed by **Dranser**
+Разработка: Dranser
+
