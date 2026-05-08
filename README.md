@@ -31,12 +31,3 @@ It reads suspension data, builds dynostand setups, and adjusts damping live whil
 1. Download the latest release from [Releases](https://github.com/Dranser/VORTEX/releases)
 2. Install it using your KSL setup
 3. Launch the game and press `F8` to open VORTEX
-
-## Development
-
-- Build from source with `dotnet build VORTEX.sln`
-
-## Notes
-
-- UI text is localized in English and Russian
-- The theme folder can be opened directly from `Settings -> Open themes folder`
