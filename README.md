@@ -1,58 +1,42 @@
-# VORTEX – Suspension Tuning Assistant for CarX Drift Racing Online
+# VORTEX
 
-VORTEX — это мод для CarX Drift Racing Online (KSL), который помогает настраивать подвеску и включает адаптивную систему, корректирующую параметры в реальном времени по данным с трассы.
+VORTEX is a KSL mod for CarX Drift Racing Online focused on suspension tuning, telemetry, and adaptive damping.
 
-Мод умеет собирать нагрузку на осях и колёсах, строить наглядные графики, применять рассчитанные настройки в династенде, а также адаптировать демпфирование «на лету» в зависимости от продольных и поперечных нагрузок.
+It reads suspension data, builds dynostand setups, and adjusts damping live while the car is on track.
 
-## Что умеет VORTEX
+## Current features
 
-- Сбор данных (RMS): запись медленной/быстрой составляющей вертикальных нагрузок на каждое колесо и ось
-- Автоматический расчёт базовой настройки (пружины, демпферы, стабилизаторы) из собранных данных
-- Адаптивная подвеска: корректирует демпфирование в реальном времени с учётом торможения/разгона и поперечной асимметрии
-- Визуализация: графики осевых нагрузок, скорости и индикатор баланса (bias)
-- Редактор «Custom (Manual)»: правка коэффициентов, копирование значений из версий пресетов
-- Темы интерфейса (dark/light/modern) и локализация (EN/RU) с подгрузкой из Git
+- Suspension calibration and dynostand setup application
+- Adaptive suspension and helper modes during live driving
+- Car info and suspension telemetry panels
+- Built-in theme catalog plus custom user themes
+- EN/RU localization
+- In-game Settings actions for refreshing local themes and opening the theme folder
+- `F8` toggles the main window
 
-## Основные разделы UI
+## Theme support
 
-- RMS Setup: запуск/остановка записи, применение настроек в династенде, обновление коэффициентов, выбор версии пресетов
-- Adaptive Suspension: включение/отключение адаптива и тонкая настройка чувствительности
-  - Trust Threshold, Max Lerp
-  - Asym Rebound/Bump Gain, Adaptive Rate
-  - Long Rebound/Bump Gain (учёт торможения/разгона, приглушение на больших боковых нагрузках)
-- Monitor: графики передней/задней осей, баланс нагрузки
-- Speed: график скорости
-- Settings: смена темы и языка
-- Debug: текущие «сырые» значения для отладки (статусы демпферов и т.д.)
+- Built-in themes are packaged with the mod
+- Custom themes are plain JSON files in `data/themes/user/*.json`
+- `template.json` is included as a starter template and is ignored by the theme catalog
+- Copy `template.json` to a new file, edit `id`, `name`, and `palette`, then use `Settings -> Refresh local themes`
 
-Горячая клавиша: F8 — открыть/закрыть главное окно (можно также через кнопку KSL UI).
+## Requirements
 
-## Как это работает (коротко)
+- CarX Drift Racing Online
+- KSL Mod Loader
 
-- Сбор RMS: при скорости выше ~40 км/ч и на асфальте фильтруются медленная (пружины/стаб) и быстрая (RMS) компоненты по каждому колесу. По ним строится базовая физическая настройка.
-- Применение в Dyno: после завершения записи (RMS Completed) мод строит сетап и применяет его в текущем династенде.
-- Адаптив: во время заезда периодически пересчитываются целевые множители демпфирования с учётом поперечной асимметрии и продольных нагрузок; применяются мягко (rate limit) и только при «достоверных» нагрузках.
+## Install
 
-## Пресеты и коэффициенты
+1. Download the latest release from [Releases](https://github.com/Dranser/VORTEX/releases)
+2. Install it using your KSL setup
+3. Launch the game and press `F8` to open VORTEX
 
-- Источник пресетов подхватывается из Git (GitHub Pages): VORTEX_Data/suspension_ratios.json
-- Поддерживаются версии пресетов; переключение версии — в UI (дропдаун «Version»)
-- «Custom (Manual)»: отдельное окно редактирования с разбивкой на секции (пружины/демпфирование/быстрые/баланс/крен/стабы) и копированием из выбранной версии
-- Обновление «Update Coefficients from Git» доступно в UI (с антиспам-кулдауном)
+## Development
 
-## Локализация и темы
+- Build from source with `dotnet build VORTEX.sln`
 
-- Языки: EN/RU, загружаются из VORTEX_Data/langs.json (онлайн)
-- Темы: dark, light, modern — переключаются в разделе Settings
+## Notes
 
-## Требования
-
-- CarX Drift Racing Online (Steam)
-- Установленный KSL Mod Loader
-
-## Ограничения и примечания
-
-- Сбор RMS и адаптив активны только на асфальте и при валидном состоянии машины (все 4 колеса, игра на трассе)
-- Порог скорости для сбора ~40 км/ч; запись не ограничена по времени — останавливается вручную
-- Применение «Apply to Dyno» доступно при активном династенде
-- При высоких поперечных нагрузках адаптив бережно ограничивает изменения по «bump», чтобы избежать излишней жёсткости/потери зацепа
+- UI text is localized in English and Russian
+- The theme folder can be opened directly from `Settings -> Open themes folder`
